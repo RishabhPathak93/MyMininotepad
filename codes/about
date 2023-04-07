@@ -1,0 +1,4 @@
+ def about_notepad(self):
+        messagebox.showinfo("About Notepad",
+                            "Notepad\n\nVersion 1.0\n\nA simple text editor written in Python using Tkinter \nBy RISHABH DURGESH PATHAK.")
+
