@@ -1,0 +1,12 @@
+ def change_font(self):
+        self.text.config(font=(self.font_family.get(), int(self.font_size.get())))
+
+    def font_color(self):
+        color = askcolor()
+        if color:
+            self.text.config(fg=color[1])
+
+    def highlight_color(self):
+        color = askcolor()
+        if color:
+            self.text.config(bg=color[1])
