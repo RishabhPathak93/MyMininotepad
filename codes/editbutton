@@ -1,0 +1,11 @@
+def cut(self):
+        self.text.event_generate("<<Cut>>")
+
+    def copy(self):
+        self.text.event_generate("<<Copy>>")
+
+    def paste(self):
+        self.text.event_generate("<<Paste>>")
+
+    def select_all(self):
+        self.text.tag_add("sel", "1.0", "end")
