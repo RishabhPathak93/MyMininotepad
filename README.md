@@ -30,6 +30,8 @@ Change font color: This allows the user to change the font color.
 Highlight text: This allows the user to highlight the selected text.
 
 About Notepad: This provides information about the Notepad application.
-# The Notepad class is defined which has methods for handling various operations such as creating a new file, opening an existing file, saving a file, copying, cutting and pasting text, changing the font and font size, changing font color and highlighting text.
+
+
+The Notepad class is defined which has methods for handling various operations such as creating a new file, opening an existing file, saving a file, copying, cutting and pasting text, changing the font and font size, changing font color and highlighting text.
 The class also creates the graphical user interface (GUI) for the notepad, including a text widget, a menu bar with dropdown menus, and key bindings for certain actions.
 The main code creates a new instance of the Notepad class and runs the main event loop to display the GUI and handle user input.
